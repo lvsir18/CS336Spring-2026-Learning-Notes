@@ -1,0 +1,114 @@
+{
+  "retrieved_at": "2026-10-04",
+  "sources": [
+    {
+      "repository": "assignment1-basics",
+      "revision": "main",
+      "url": "https://github.com/stanford-cs336/assignment1-basics/tree/main",
+      "archive_sha256": "8d3f2f0e336ce72e101ac24b6b1a326942199501351a1ac431dd9e6b00c2acdf"
+    },
+    {
+      "repository": "assignment2-systems",
+      "revision": "main",
+      "url": "https://github.com/stanford-cs336/assignment2-systems/tree/main",
+      "archive_sha256": "c092fbdfacf836da5293b67db664f9086bcfe08d66190359f7fd6b6c0d3bc151"
+    },
+    {
+      "repository": "assignment3-scaling",
+      "revision": "main",
+      "url": "https://github.com/stanford-cs336/assignment3-scaling/tree/main",
+      "archive_sha256": "fe238105e3fc83c0422cfb8bce671bd18cbb5787640afe6b3724c9ca1f37e717"
+    },
+    {
+      "repository": "assignment4-data",
+      "revision": "main",
+      "url": "https://github.com/stanford-cs336/assignment4-data/tree/main",
+      "archive_sha256": "d0ce2552b15741305ac3201d400a0d21fdccdcccbd135ebba33e77716e7f923c"
+    },
+    {
+      "repository": "assignment5-alignment",
+      "revision": "main",
+      "url": "https://github.com/stanford-cs336/assignment5-alignment/tree/main",
+      "archive_sha256": "5c31a410201117cf4f52d36ad1bfd5d901fe23b6bb99a61b7fa243c613c320cc"
+    },
+    {
+      "repository": "lectures",
+      "revision": "main",
+      "url": "https://github.com/stanford-cs336/lectures/tree/main",
+      "files": [
+        {
+          "file": "lecture_01.py",
+          "sha256": "a7d47339eab889679010e926db8beb79f475a0596243f19bb15dbd69223f67e6"
+        },
+        {
+          "file": "lecture_02.py",
+          "sha256": "f731b3849afc970a062f1fe692d7d80f5952cf82c2a4f6f2803a8fb9a9dabfd6"
+        },
+        {
+          "file": "lecture_03.pdf",
+          "sha256": "20a953541b41a099bc69b8d809139a4ccdb2aefedaa13e50c766245fe4b5167e"
+        },
+        {
+          "file": "lecture_04.pdf",
+          "sha256": "922da01cee70ed9dc9eef13d8116f1d6f45d663c12e632b3e80954c783bd3ce5"
+        },
+        {
+          "file": "lecture_05.pdf",
+          "sha256": "a2d5664a3b5a1f246df2fe58b43189215f29931ec05bde4d8a6af4664f55cafe"
+        },
+        {
+          "file": "lecture_06.py",
+          "sha256": "4be1200d93d1f38963d40d7c46a5be72dd67a230ebf8a48d446f018d5e8fa788"
+        },
+        {
+          "file": "lecture_07.py",
+          "sha256": "7cdec6c6e2b78afd667c98e2826efea637bb076cd926c45b4f404b0528c42e60"
+        },
+        {
+          "file": "lecture_08.pdf",
+          "sha256": "4c4d7674b333693f20f328935d84dd8a073362c9725c5e05302b6650751ad4d1"
+        },
+        {
+          "file": "lecture_09.pdf",
+          "sha256": "92a5d9e26e65bb0a9d8c79b12ed7ea26d14530bf960dcf44f9ed5fd372f519fa"
+        },
+        {
+          "file": "lecture_10.py",
+          "sha256": "e79acd9115d75f0b8bf4902d97dc41c1f6b5016778321f19c2dc241a90cfe9b9"
+        },
+        {
+          "file": "lecture_11.pdf",
+          "sha256": "b2148e683b4020f3fa95f5c95f37be55ebf6b2f57382f4c148517e84bf1df890"
+        },
+        {
+          "file": "lecture_12.py",
+          "sha256": "93e4049c9ee2665a7e5c883fee2c213e2eaa45aa5d452e447b5a15a5f353fd09"
+        },
+        {
+          "file": "lecture_13.py",
+          "sha256": "321fbab635378c275f65c41487119f3b9b171fc0ddef1454a4c607c9db72163b"
+        },
+        {
+          "file": "lecture_14.py",
+          "sha256": "8e0e17f868002f2e8f73afed018b2dd787c0a1b371eec599c44d8dbfe555ae9b"
+        },
+        {
+          "file": "lecture_15.pdf",
+          "sha256": "42a4bc02408a96e0b414f789f32780ae1d8461000f872d93aa38c94fe369e862"
+        },
+        {
+          "file": "lecture_16.pdf",
+          "sha256": "1a2bea825499f226b1c3fe990606253ad1b4fdbdf2ae90b4d12d7d0c07f2c8b3"
+        },
+        {
+          "file": "lecture_17.py",
+          "sha256": "d8c3054ecce42fda3d92b4f21677a83d65cb525e8b3fbd4361c079f3cd20da52"
+        },
+        {
+          "file": "references.py",
+          "sha256": "012624ea78c34f43fe1f89a7d3e765a7b478b0a1e4ca05c88c64caac03bf1dfd"
+        }
+      ]
+    }
+  ]
+}
