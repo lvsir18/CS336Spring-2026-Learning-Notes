@@ -1,21 +1,28 @@
 # Git、GitHub 与实验版本管理
 
-笔记与作业各一个独立repo，main分支；顶层工作目录只是容器。已初始化且将代码/文档/小型结果提交本地，没有创建远端或上传到你的账户。
+笔记与作业各一个独立repo，main分支；顶层工作目录只是容器。笔记远端为 [lvsir18/CS336Spring-2026-Learning-Notes](https://github.com/lvsir18/CS336Spring-2026-Learning-Notes)，本地目录仍叫 `cs336-2026-notes`。作业仓库目前保留在本地，另行发布。
 
 ## GitHub 连接
 
-在[lvsir18主页](https://github.com/lvsir18)新建空仓库`cs336-2026-notes`和`cs336-2026-assignments`，不勾选自动README，然后分别在对应目录执行：
+在新机器获取笔记：
 
 ```bash
-# 在笔记仓库执行
- git remote add origin https://github.com/lvsir18/cs336-2026-notes.git
- git push -u origin main
-# 在作业仓库执行
- git remote add origin https://github.com/lvsir18/cs336-2026-assignments.git
- git push -u origin main
+git clone https://github.com/lvsir18/CS336Spring-2026-Learning-Notes.git cs336-2026-notes
+cd cs336-2026-notes
 ```
 
-先用`git remote -v`检查，若已有origin则`git remote set-url origin ...`。这里提供的是后续操作命令，当前没有执行任何push；原内容的发布license由你后续选择，第三方许可仍独立保留。
+在现有笔记目录检查远端并同步后续修改：
+
+```bash
+git remote -v
+git pull --ff-only
+git status --short
+git add README.md lectures guides source-manifest.json
+git commit -m 'Update CS336 learning notes'
+git push origin main
+```
+
+若需要首次连接现有本地笔记仓库，执行 `git remote add origin https://github.com/lvsir18/CS336Spring-2026-Learning-Notes.git`；已有origin时先核对地址。作业仓库发布时使用它自己的远端，不放进笔记仓库。原内容的发布license由你后续选择，第三方许可仍独立保留。
 
 ## 每次实验如何入库
 

@@ -4,7 +4,7 @@
 
 **19次课程安排各一份Markdown，正文约5.3万字符。**每篇包括核心概念、公式/张量形状、实现或实验关联、容易出错之处及自测/面试追问。第18次嘉宾课没有找到公开正式材料，独立文件清楚标记资料缺口；第19次按官网编号，公开录像的编号18与此不同。不能把这两篇补充整理当逐字课堂记录。
 
-配套代码仓库位于同一工作区的 `cs336-2026-assignments`，所有五份作业的实现、运行步骤和测试结果在其README。笔记与代码各自是独立Git仓库，main分支，本地版本可追溯，尚未push。
+配套代码仓库位于同一工作区的 `cs336-2026-assignments`，所有五份作业的实现、运行步骤和测试结果在其README。笔记与代码各自是独立Git仓库，使用main分支；本笔记的GitHub仓库为 [CS336Spring-2026-Learning-Notes](https://github.com/lvsir18/CS336Spring-2026-Learning-Notes)，作业代码另行发布。
 
 ## 阅读导航
 
@@ -38,4 +38,4 @@
 
 ## Git 与 GitHub
 
-计划仓库名 `cs336-2026-notes`，用户主页[lvsir18](https://github.com/lvsir18)。完成本地阅读/修改后，按[发布说明](guides/github.md)连接远端。大数据、权重、缓存及密钥排除在提交之外；课程官方材料保留链接，notes以原创整理为主，发布license由维护者后续选择。
+远端仓库：[lvsir18/CS336Spring-2026-Learning-Notes](https://github.com/lvsir18/CS336Spring-2026-Learning-Notes)。按[发布说明](guides/github.md)克隆仓库或提交后续笔记修改。大数据、权重、缓存及密钥排除在提交之外；课程官方材料保留链接，notes以原创整理为主，发布license由维护者后续选择。
