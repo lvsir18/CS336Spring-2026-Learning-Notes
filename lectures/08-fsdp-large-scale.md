@@ -1,5 +1,7 @@
 # 第 08 讲：FSDP、ZeRO 与多维并行
 
+> 配套实践：[A2 实现与实验](https://github.com/lvsir18/CS336Spring-2026-Learning-Assignments/blob/main/docs/a2.md) · [课程与作业对应表](../guides/assignments.md)。具体已实现和已验证的范围以作业说明为准。
+
 > 2026 Spring · 官网日期 04-22 · 中文自学笔记
 > 资料核验日期：2026-10-04。以下为原创整理、推导与工程补充，不是官方讲义的逐字翻译。
 

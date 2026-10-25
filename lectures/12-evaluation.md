@@ -1,5 +1,7 @@
 # 第 12 讲：评价语言模型：指标、有效性与可信度
 
+> 配套实践：[作业结果与完成范围](https://github.com/lvsir18/CS336Spring-2026-Learning-Assignments/blob/main/results/README.md) · [课程与作业对应表](../guides/assignments.md)。具体已实现和已验证的范围以作业说明为准。
+
 > 2026 Spring · 官网日期 05-06 · 中文自学笔记
 > 资料核验日期：2026-10-04。以下为原创整理、推导与工程补充，不是官方讲义的逐字翻译。
 

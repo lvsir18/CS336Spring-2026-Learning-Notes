@@ -4,7 +4,15 @@
 
 **19次课程安排各一份Markdown，正文约5.3万字符。**每篇包括核心概念、公式/张量形状、实现或实验关联、容易出错之处及自测/面试追问。第18次嘉宾课没有找到公开正式材料，独立文件清楚标记资料缺口；第19次按官网编号，公开录像的编号18与此不同。不能把这两篇补充整理当逐字课堂记录。
 
-配套代码仓库位于同一工作区的 `cs336-2026-assignments`，所有五份作业的实现、运行步骤和测试结果在其README。笔记与代码各自是独立Git仓库，使用main分支；本笔记的GitHub仓库为 [CS336Spring-2026-Learning-Notes](https://github.com/lvsir18/CS336Spring-2026-Learning-Notes)，作业代码另行发布。
+## 配套作业与真实服务器结果
+
+[**进入 A1–A5 作业仓库 →**](https://github.com/lvsir18/CS336Spring-2026-Learning-Assignments) · [逐课对应的实验入口](guides/assignments.md) · [完整复现与恢复](https://github.com/lvsir18/CS336Spring-2026-Learning-Assignments/blob/main/docs/operations.md)
+
+![配套作业实验结果总览](https://raw.githubusercontent.com/lvsir18/CS336Spring-2026-Learning-Assignments/main/assets-figures/results-overview.png)
+
+作业仓库提供关键实现、五章原理/代码/步骤讲解及真实结果：A1 val loss **1.41168**；A4扩容raw/rules loss **4.14461/4.13960**；A5 SFT/DPO/GRPO在1319题GSM8K上的strict准确率为 **25.02%/27.07%/36.09%**。实验在共享单卡RTX PRO 6000 96GB上运行，allocator限制42GiB。A2没有完成真实多GPU/NCCL扩展实验；A5使用公开OLMo，非A1/A4权重续训。具体协议和限制以作业章节为准。
+
+笔记与作业是独立Git仓库，互相链接。阅读概念后可直接跳到相应实现与实测记录，再从作业章节返回课程笔记。
 
 ## 阅读导航
 
